@@ -1,0 +1,28 @@
+
+  #rainbow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .rainbow-image {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+  #message {
+    font-weight: bold;
+    margin-top: 206px;
+  }
+
+  .win {
+    color: green;
+  }
+
+  .lose {
+    color: red;
+  }
+
