@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var attempts = 0;
-  var maxAttempts = 10;
+  var maxAttempts = 30;
 
   $("#shuffle-btn").click(function() {
     if (attempts >= maxAttempts) {
