@@ -1,0 +1,42 @@
+section
+{
+    width: 300px;
+    height: 150px;
+    background: #88c1d0;
+    margin: 5px;
+}
+
+@media (min-width: 1600px)
+{
+    body
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1599px)
+{
+    body
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section
+    {
+       width: 35%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
